@@ -1,0 +1,693 @@
+{
+  "meta": {
+    "name": "Observability, Logging & Monitoring Almanac Roster",
+    "version": "2026-06",
+    "generated_at": "2026-06-16T22:46:00Z",
+    "total_tools": 97,
+    "parent_almanac": "ArdurAI/ai-infrastructure-almanac",
+    "research_method": "8-facet wide exploration, 112+ independent searches, 8 parallel agents"
+  },
+  "category": "observability",
+  "category_name": "Observability, Logging & Monitoring",
+  "tools": [
+    {
+      "name": "LangSmith",
+      "type": "Observability + Evaluation",
+      "license": "Proprietary",
+      "tier": "A",
+      "notes": "1B+ events/day; ~35% Fortune 500; LangChain native"
+    },
+    {
+      "name": "Langfuse",
+      "type": "LLM Engineering Platform",
+      "license": "MIT (core)",
+      "tier": "A",
+      "notes": "21K+ stars; self-hosted; acquired by ClickHouse Jan 2026"
+    },
+    {
+      "name": "Braintrust",
+      "type": "Eval-first Observability",
+      "license": "Proprietary",
+      "tier": "A",
+      "notes": "$124M raised; Notion/Stripe/Vercel; CI/CD quality gates"
+    },
+    {
+      "name": "Arize Phoenix",
+      "type": "AI Observability + Evaluation",
+      "license": "Elastic-2.0",
+      "tier": "A",
+      "notes": "2.5M+ monthly downloads; RAG debugging; local-first OTel"
+    },
+    {
+      "name": "Arize AX",
+      "type": "Enterprise AI Monitoring",
+      "license": "Proprietary",
+      "tier": "A",
+      "notes": "Production-scale telemetry; 50+ research-backed eval metrics"
+    },
+    {
+      "name": "Helicone",
+      "type": "LLM Gateway + Observability",
+      "license": "Apache-2.0 (partial)",
+      "tier": "A",
+      "notes": "YC W23; proxy-based; one-line integration; 100+ models"
+    },
+    {
+      "name": "Pydantic Logfire",
+      "type": "AI-native Observability",
+      "license": "Proprietary",
+      "tier": "A",
+      "notes": "10M free spans/mo; $2/M after; OTel-native; SQL-queryable"
+    },
+    {
+      "name": "Portkey",
+      "type": "AI Gateway + Observability",
+      "license": "Partially open",
+      "tier": "A",
+      "notes": "1T tokens/day; 250+ models; 20-40ms latency; MCP Gateway"
+    },
+    {
+      "name": "OpenLIT",
+      "type": "AI Engineering Platform",
+      "license": "Apache-2.0",
+      "tier": "A",
+      "notes": "LLM + GPU + VectorDB observability; 60+ integrations; self-hosted"
+    },
+    {
+      "name": "Datadog LLM Observability",
+      "type": "APM Extension",
+      "license": "Proprietary",
+      "tier": "A",
+      "notes": "Unified infra + LLM tracing; agentless; OTel GenAI support"
+    },
+    {
+      "name": "Weights & Biases Weave",
+      "type": "LLM Tracing + Eval",
+      "license": "Proprietary",
+      "tier": "A",
+      "notes": "ML + LLM unified; $50/user/mo; auto-instruments major frameworks"
+    },
+    {
+      "name": "TruLens",
+      "type": "RAG Evaluation Framework",
+      "license": "MIT",
+      "tier": "A",
+      "notes": "RAG Triad: groundedness, relevance, correctness; OTel traces"
+    },
+    {
+      "name": "AgentOps",
+      "type": "Agent Observability",
+      "license": "Partially open",
+      "tier": "A",
+      "notes": "Agent session lifecycles; tool calls; replay; CrewAI/AutoGen native"
+    },
+    {
+      "name": "Galileo",
+      "type": "AI Evaluation + Guardrails",
+      "license": "Proprietary",
+      "tier": "A",
+      "notes": "$68M raised; Luna-2 evaluators; sub-200ms scoring; runtime guardrails"
+    },
+    {
+      "name": "DeepEval",
+      "type": "LLM Evaluation Framework",
+      "license": "Apache-2.0",
+      "tier": "A",
+      "notes": "50+ metrics; CI-native; pytest integration; RAG/agent/multi-turn"
+    },
+    {
+      "name": "Ragas",
+      "type": "RAG Evaluation",
+      "license": "Open source",
+      "tier": "A",
+      "notes": "Faithfulness, context precision/recall; research-backed; pairs with Phoenix"
+    },
+    {
+      "name": "Promptfoo",
+      "type": "Eval + Red Teaming",
+      "license": "MIT",
+      "tier": "A",
+      "notes": "YAML-based assertions; 50+ vulnerability types; GitHub Actions; always free OSS"
+    },
+    {
+      "name": "Fiddler",
+      "type": "AI Governance + Monitoring",
+      "license": "Proprietary",
+      "tier": "A",
+      "notes": "$100M raised; explainability, bias, compliance; ML+LLM unified"
+    },
+    {
+      "name": "Arthur AI",
+      "type": "Model Performance + Governance",
+      "license": "Proprietary",
+      "tier": "A",
+      "notes": "$60M raised; risk, bias, drift; compliance dashboards"
+    },
+    {
+      "name": "LiteLLM",
+      "type": "LLM Gateway + Proxy",
+      "license": "Open source",
+      "tier": "A",
+      "notes": "18K+ stars; 100+ LLM APIs in OpenAI format; YC W23"
+    },
+    {
+      "name": "Lunary",
+      "type": "LLM Analytics + Observability",
+      "license": "Open source / SaaS",
+      "tier": "B",
+      "notes": "Prompt management, PII masking, agent tracing; EU data center"
+    },
+    {
+      "name": "Maxim AI",
+      "type": "Full Lifecycle Platform",
+      "license": "Proprietary",
+      "tier": "B",
+      "notes": "Simulation + eval + observability; Bifrost open-source LLM gateway (Go)"
+    },
+    {
+      "name": "Comet Opik",
+      "type": "ML + LLM Observability",
+      "license": "Apache-2.0 (Opik OSS)",
+      "tier": "B",
+      "notes": "Comet heritage; PyTest CI; guardrails; PII detection"
+    },
+    {
+      "name": "Future AGI",
+      "type": "Unified Eval + Observability",
+      "license": "Apache-2.0",
+      "tier": "B",
+      "notes": "traceAI auto-instrumentation; 100+ metrics; multimodal"
+    },
+    {
+      "name": "TrueFoundry",
+      "type": "Full-Stack AI Infra",
+      "license": "Proprietary",
+      "tier": "B",
+      "notes": "AI Gateway, token-level cost tracking, FinOps; hybrid/on-prem"
+    },
+    {
+      "name": "Guardrails AI",
+      "type": "GenAI Reliability",
+      "license": "Proprietary",
+      "tier": "B",
+      "notes": "$8M raised; runtime guardrails; structured output validation"
+    },
+    {
+      "name": "New Relic",
+      "type": "APM + LLM Observability",
+      "license": "Proprietary",
+      "tier": "B",
+      "notes": "OpenLIT integration; pre-built dashboards; OTLP endpoint"
+    },
+    {
+      "name": "Splunk (Cisco)",
+      "type": "Infrastructure + AI Observability",
+      "license": "Proprietary",
+      "tier": "B",
+      "notes": "Cisco acquisition 2025; GPU-to-application monitoring; AI-ready PODs"
+    },
+    {
+      "name": "Grafana Cloud",
+      "type": "AI Observability",
+      "license": "Open core + SaaS",
+      "tier": "B",
+      "notes": "OpenLIT integration; 5 prebuilt dashboards for GenAI"
+    },
+    {
+      "name": "Honeycomb",
+      "type": "Observability (OTel-native)",
+      "license": "Proprietary",
+      "tier": "B",
+      "notes": "Distributed tracing; high-cardinality; GenAI semantic conventions"
+    },
+    {
+      "name": "Netdata",
+      "type": "Real-Time GPU Monitoring",
+      "license": "Open source + SaaS",
+      "tier": "B",
+      "notes": "Per-second monitoring; NVIDIA/Intel GPU; DCGM collector; MCP server"
+    },
+    {
+      "name": "Dynatrace",
+      "type": "AIOps + AI Observability",
+      "license": "Proprietary",
+      "tier": "B",
+      "notes": "AI-powered root cause analysis; full-stack monitoring"
+    },
+    {
+      "name": "NVIDIA DCGM",
+      "type": "GPU Monitoring",
+      "license": "Open source (NVIDIA)",
+      "tier": "B",
+      "notes": "GPU health, utilization, performance; Prometheus exporter"
+    },
+    {
+      "name": "Kong AI Gateway",
+      "type": "API Gateway + AI",
+      "license": "Open core + SaaS",
+      "tier": "B",
+      "notes": "Multi-LLM routing; semantic caching; rate limiting"
+    },
+    {
+      "name": "Vercel AI Gateway",
+      "type": "Serverless AI Gateway",
+      "license": "Proprietary",
+      "tier": "B",
+      "notes": "Unified API for AI providers; serverless edge deployment"
+    },
+    {
+      "name": "OpenRouter",
+      "type": "LLM Routing + Proxy",
+      "license": "Open source",
+      "tier": "B",
+      "notes": "Standardized API for 100+ open/commercial models"
+    },
+    {
+      "name": "Fastn",
+      "type": "MCP Gateway + Observability",
+      "license": "Proprietary",
+      "tier": "B",
+      "notes": "Managed MCP gateway; 1,000+ integrations; Adaptive Context Layer"
+    },
+    {
+      "name": "Xenos Labs",
+      "type": "LLM Cost/Latency Monitoring",
+      "license": "Proprietary",
+      "tier": "C",
+      "notes": "Japan (Antler-backed); Y240M pre-seed; LLM cost/latency/quality"
+    },
+    {
+      "name": "Coxwave",
+      "type": "AI Trust + Verification",
+      "license": "Proprietary",
+      "tier": "C",
+      "notes": "APAC; $4.8M raised Jan 2026; agent verification, reliability, governance"
+    },
+    {
+      "name": "WitnessAI",
+      "type": "AI Security + Governance",
+      "license": "Proprietary",
+      "tier": "C",
+      "notes": "$58M raised (Series B); runtime security, guardrails, policy enforcement"
+    },
+    {
+      "name": "JetStream Security",
+      "type": "AI Governance + Control",
+      "license": "Proprietary",
+      "tier": "C",
+      "notes": "$34M raised (Seed); enterprise AI visibility, risk controls, blueprints"
+    },
+    {
+      "name": "AIM Intelligence",
+      "type": "AI Red Teaming + Guardrails",
+      "license": "Proprietary",
+      "tier": "C",
+      "notes": "APAC; $7M Series A; automated red teaming, real-time safety"
+    },
+    {
+      "name": "Tynapse",
+      "type": "Runtime Agent Security",
+      "license": "Proprietary",
+      "tier": "C",
+      "notes": "APAC; $3.17M seed; blocking hallucinations, jailbreaks, data leakage"
+    },
+    {
+      "name": "White Circle",
+      "type": "AI Control Platform",
+      "license": "Proprietary",
+      "tier": "C",
+      "notes": "Europe ($11M); monitor, protect, test, improve AI models"
+    },
+    {
+      "name": "Geordie AI",
+      "type": "AI Governance + Observability",
+      "license": "Proprietary",
+      "tier": "C",
+      "notes": "Europe ($30M); agent posture, observability, compliance, controls"
+    },
+    {
+      "name": "Nexos.ai",
+      "type": "AI Orchestration + Governance",
+      "license": "Proprietary",
+      "tier": "C",
+      "notes": "Europe ($35M); secure adoption, observability, cost control"
+    },
+    {
+      "name": "Aveni",
+      "type": "AI Assurance (Financial)",
+      "license": "Proprietary",
+      "tier": "C",
+      "notes": "Europe ($16.2M); AI-agent conduct risk assessment; financial oversight"
+    },
+    {
+      "name": "Credo AI",
+      "type": "AI Governance Platform",
+      "license": "Proprietary",
+      "tier": "C",
+      "notes": "$41M raised; governance, risk, compliance workflows; EU AI Act"
+    },
+    {
+      "name": "Seldon",
+      "type": "MLOps + Governance",
+      "license": "Proprietary",
+      "tier": "C",
+      "notes": "$33M raised; model governance, explainability, monitoring"
+    },
+    {
+      "name": "Cranium",
+      "type": "AI Governance + Security",
+      "license": "Proprietary",
+      "tier": "C",
+      "notes": "$32M raised; AI security, compliance, risk management"
+    },
+    {
+      "name": "Distributional",
+      "type": "AI Testing Platform",
+      "license": "Proprietary",
+      "tier": "C",
+      "notes": "$30M raised; enterprise AI testing, statistical validation"
+    },
+    {
+      "name": "LatticeFlow",
+      "type": "AI Model Quality",
+      "license": "Proprietary",
+      "tier": "C",
+      "notes": "$15M raised; model quality, robustness, fairness testing"
+    },
+    {
+      "name": "Mindgard",
+      "type": "AI Security Testing",
+      "license": "Proprietary",
+      "tier": "C",
+      "notes": "$12M raised; adversarial testing, model security"
+    },
+    {
+      "name": "Deeploy",
+      "type": "Responsible AI Oversight",
+      "license": "Proprietary",
+      "tier": "C",
+      "notes": "$9M raised; AI oversight, explainability, compliance"
+    },
+    {
+      "name": "Vijil",
+      "type": "AI Agent Resilience",
+      "license": "Proprietary",
+      "tier": "C",
+      "notes": "$23M raised; reliability testing, security, governance"
+    },
+    {
+      "name": "Kolena",
+      "type": "AI Model Testing",
+      "license": "Proprietary",
+      "tier": "C",
+      "notes": "$21M raised; model testing, benchmarking, quality assurance"
+    },
+    {
+      "name": "Atla AI",
+      "type": "AI Agent Evaluation",
+      "license": "Proprietary",
+      "tier": "C",
+      "notes": "$6M raised; agent evaluation insights, scoring"
+    },
+    {
+      "name": "Confident AI",
+      "type": "Eval Platform (DeepEval)",
+      "license": "Proprietary + OSS",
+      "tier": "C",
+      "notes": "50+ metrics; cross-functional workflows; red teaming"
+    },
+    {
+      "name": "Middleware",
+      "type": "Full-Stack Cloud Observability",
+      "license": "Proprietary",
+      "tier": "C",
+      "notes": "YC W2023; AI-based anomaly detection; GPT-4 error resolution"
+    },
+    {
+      "name": "Laminar",
+      "type": "AI Agent Observability",
+      "license": "Open source",
+      "tier": "C",
+      "notes": "YC 2026; trace workflows; replay agent runs; anomaly detection"
+    },
+    {
+      "name": "Traceloop / OpenLLMetry",
+      "type": "OTel-based LLM Tracing",
+      "license": "Open source",
+      "tier": "C",
+      "notes": "OpenTelemetry-native LLM application monitoring"
+    },
+    {
+      "name": "Arize AI",
+      "type": "ML + LLM Monitoring",
+      "license": "Mixed",
+      "tier": "C",
+      "notes": "$131M total raised; unified ML and LLM observability; drift detection"
+    },
+    {
+      "name": "Databricks MLflow",
+      "type": "Unified ML + LLM Lifecycle",
+      "license": "Open source (MLflow)",
+      "tier": "C",
+      "notes": "Experiment tracking; model registry; GenAI tracing; Spark scalability"
+    },
+    {
+      "name": "Amazon SageMaker",
+      "type": "AWS-native ML/LLM Ops",
+      "license": "Proprietary",
+      "tier": "C",
+      "notes": "Model monitoring; batch/real-time eval jobs; managed infrastructure"
+    },
+    {
+      "name": "Azure Machine Learning",
+      "type": "Azure-native AI Platform",
+      "license": "Proprietary",
+      "tier": "C",
+      "notes": "Dataset-driven evaluations; governance; access controls"
+    },
+    {
+      "name": "Google ADK",
+      "type": "Google Agent Development",
+      "license": "Open source (SDK)",
+      "tier": "C",
+      "notes": "Structured agent eval hooks; tool/action tracing; GCP integration"
+    },
+    {
+      "name": "NVIDIA NeMo Guardrails",
+      "type": "Runtime Guardrails",
+      "license": "Open source (NVIDIA)",
+      "tier": "C",
+      "notes": "Rule-and-rail framework; fact-checking; grounding"
+    },
+    {
+      "name": "Vectara HHEM-2.1",
+      "type": "Hallucination Detection",
+      "license": "Open weights",
+      "tier": "C",
+      "notes": "Cross-encoder hallucination model; RAG groundedness"
+    },
+    {
+      "name": "RAGAS",
+      "type": "RAG Evaluation Metrics",
+      "license": "Open source",
+      "tier": "C",
+      "notes": "Faithfulness, context precision, context recall; research-backed"
+    },
+    {
+      "name": "Giskard",
+      "type": "AI Quality Testing",
+      "license": "Open source",
+      "tier": "C",
+      "notes": "Bias detection, robustness testing, explainability"
+    },
+    {
+      "name": "Lakera",
+      "type": "GenAI Application Security",
+      "license": "Acquired",
+      "tier": "C",
+      "notes": "$30M raised; real-time guardrails, PII protection; acquired by Check Point"
+    },
+    {
+      "name": "Aporia",
+      "type": "AI Observability + Guardrails",
+      "license": "Acquired",
+      "tier": "C",
+      "notes": "$30M raised; ML monitoring, guardrails, drift detection; acquired"
+    },
+    {
+      "name": "Protect AI",
+      "type": "ML/ML Security",
+      "license": "Acquired",
+      "tier": "C",
+      "notes": "$108M raised; AI/ML system security, model scanning; acquired by Palo Alto"
+    },
+    {
+      "name": "CalypsoAI",
+      "type": "Enterprise AI Inference Security",
+      "license": "Acquired",
+      "tier": "C",
+      "notes": "$41M raised; inference security, model validation; acquired"
+    },
+    {
+      "name": "Deepchecks",
+      "type": "ML Validation + Monitoring",
+      "license": "Acquired",
+      "tier": "C",
+      "notes": "$14M raised; ML model validation, data drift; acquired"
+    },
+    {
+      "name": "Mona",
+      "type": "AI Model Monitoring",
+      "license": "Proprietary",
+      "tier": "C",
+      "notes": "$7M raised; custom metric monitoring for AI models"
+    },
+    {
+      "name": "Robust Intelligence",
+      "type": "AI Model Security",
+      "license": "Acquired",
+      "tier": "C",
+      "notes": "$44M raised; AI model security firewall; acquired by Cisco"
+    },
+    {
+      "name": "HiddenLayer",
+      "type": "AI Model Security",
+      "license": "Proprietary",
+      "tier": "C",
+      "notes": "$56M raised; AI model security platform, runtime protection"
+    },
+    {
+      "name": "Harmonic Security",
+      "type": "AI Data Protection",
+      "license": "Proprietary",
+      "tier": "C",
+      "notes": "$24M raised; data leakage prevention, shadow AI visibility"
+    },
+    {
+      "name": "Prompt Security",
+      "type": "GenAI Runtime Security",
+      "license": "Acquired",
+      "tier": "C",
+      "notes": "$23M raised; runtime GenAI security, prompt injection; acquired"
+    },
+    {
+      "name": "Lasso Security",
+      "type": "LLM Cybersecurity",
+      "license": "Proprietary",
+      "tier": "C",
+      "notes": "$6M raised; LLM security platform, data protection"
+    },
+    {
+      "name": "Trustible",
+      "type": "AI Governance",
+      "license": "Proprietary",
+      "tier": "C",
+      "notes": "$6M raised; enterprise AI governance, compliance"
+    },
+    {
+      "name": "Modulos",
+      "type": "AI Governance Compliance",
+      "license": "Proprietary",
+      "tier": "C",
+      "notes": "$11M raised; compliance-by-design for AI systems"
+    },
+    {
+      "name": "Singulr AI",
+      "type": "AI Governance Security",
+      "license": "Proprietary",
+      "tier": "C",
+      "notes": "$10M raised; agent security, governance, observability"
+    },
+    {
+      "name": "DeepKeep",
+      "type": "Enterprise AI Security",
+      "license": "Proprietary",
+      "tier": "C",
+      "notes": "$10M raised; AI model security, runtime protection"
+    },
+    {
+      "name": "Numalis",
+      "type": "Formal AI Validation",
+      "license": "Proprietary",
+      "tier": "C",
+      "notes": "$6M raised; mathematical validation, formal verification"
+    },
+    {
+      "name": "TrojAI",
+      "type": "AI Attack Protection",
+      "license": "Proprietary",
+      "tier": "C",
+      "notes": "$9M raised; adversarial attack detection, model hardening"
+    },
+    {
+      "name": "Zania",
+      "type": "AI Compliance (GRC)",
+      "license": "Proprietary",
+      "tier": "C",
+      "notes": "$18M raised; agentic AI for governance, risk, compliance"
+    },
+    {
+      "name": "Complyance",
+      "type": "AI-native GRC",
+      "license": "Proprietary",
+      "tier": "C",
+      "notes": "$20M raised; governance, risk, compliance automation"
+    },
+    {
+      "name": "Darwin AI",
+      "type": "Public Sector AI Governance",
+      "license": "Proprietary",
+      "tier": "C",
+      "notes": "$15M raised; government AI adoption, transparency, compliance"
+    },
+    {
+      "name": "Portal26",
+      "type": "GenAI Adoption Governance",
+      "license": "Proprietary",
+      "tier": "C",
+      "notes": "$15M raised; shadow AI visibility, responsible adoption"
+    },
+    {
+      "name": "AI Score",
+      "type": "AI Governance (Europe)",
+      "license": "Proprietary",
+      "tier": "C",
+      "notes": "$1M raised; enterprise visibility, compliance monitoring, risk scoring"
+    },
+    {
+      "name": "Alinia",
+      "type": "AI Compliance (Europe)",
+      "license": "Proprietary",
+      "tier": "C",
+      "notes": "$7.5M raised; guardrails API, auditing, policy enforcement"
+    },
+    {
+      "name": "Ciphero",
+      "type": "AI Verification Layer",
+      "license": "Proprietary",
+      "tier": "C",
+      "notes": "$2.5M raised; AI interaction capture, verification, governance"
+    },
+    {
+      "name": "Iridius",
+      "type": "Compliance-by-Design",
+      "license": "Proprietary",
+      "tier": "C",
+      "notes": "$8.6M raised; regulated enterprise workflows, validation"
+    },
+    {
+      "name": "Capsule Security",
+      "type": "Runtime Trust Layer",
+      "license": "Proprietary",
+      "tier": "C",
+      "notes": "$7M raised; agent monitoring, control, manipulation prevention"
+    },
+    {
+      "name": "Aigentsphere",
+      "type": "Agent Governance Infra",
+      "license": "Proprietary",
+      "tier": "C",
+      "notes": "$4M raised; monitoring, policy enforcement, compliance reporting"
+    }
+  ]
+}
